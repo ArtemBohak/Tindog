@@ -1,0 +1,14 @@
+%initial-margin{
+  margin: 1.5em
+}
+
+#introduction,
+#features,
+#testimonials,
+#press,
+#pricing,
+#cta
+{
+  @extend %initial-margin
+}
+
