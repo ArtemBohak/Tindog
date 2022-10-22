@@ -1,15 +1,14 @@
-%initial-margin{
-  margin: 1.5em
+@mixin initial-margin($initial-margin){
+  margin: $initial-margin;
 }
 
-#introduction,
 #features,
 #testimonials,
 #press,
 #pricing,
 #cta
 {
-  @extend %initial-margin
+  @include initial-margin(1.5rem)
 }
 
 #title {
@@ -19,7 +18,7 @@
 #navbarSupportedContent {
   font-size: 100%;
   @media (max-width: 990px){
-    font-size: 170%;
+    font-size: 130%;
   }
 }
 
@@ -27,12 +26,12 @@
 #Tindog-name {
   font-size: 130%;
   @media (max-width: 990px) {
-    font-size: 200%;
+    font-size: 160%;
   }
 }
 
 .navbar-toggler {
-  font-size: 3rem;
+  font-size: 2rem;
   border: none;
   box-shadow: none;
   &:focus {
@@ -41,4 +40,12 @@
   //@media (max-width: 800px) {
   //  font-size: 3rem
   //}
+}
+
+#introduction h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 60px;
+  font-weight: 900;
 }

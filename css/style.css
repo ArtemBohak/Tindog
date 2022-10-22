@@ -1,10 +1,9 @@
-#introduction,
 #features,
 #testimonials,
 #press,
 #pricing,
 #cta {
-  margin: 1.5em; }
+  margin: 1.5rem; }
 
 #title {
   background-color: #ff4c68; }
@@ -13,19 +12,26 @@
   font-size: 100%; }
   @media (max-width: 990px) {
     #navbarSupportedContent {
-      font-size: 170%; } }
+      font-size: 130%; } }
 
 #Tindog-name {
   font-size: 130%; }
   @media (max-width: 990px) {
     #Tindog-name {
-      font-size: 200%; } }
+      font-size: 160%; } }
 
 .navbar-toggler {
-  font-size: 3rem;
+  font-size: 2rem;
   border: none;
   box-shadow: none; }
   .navbar-toggler:focus {
     box-shadow: none; }
+
+#introduction h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 60px;
+  font-weight: 900; }
 
 /*# sourceMappingURL=style.css.map */
