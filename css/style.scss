@@ -17,17 +17,17 @@
 }
 
 #navbarSupportedContent {
-  font-size: 150%;
-  @media (max-width: 800px){
-    font-size: 200%;
+  font-size: 100%;
+  @media (max-width: 990px){
+    font-size: 170%;
   }
 }
 
 
 #Tindog-name {
-  font-size: 200%;
-  @media (max-width: 800px) {
-    font-size: 300%;
+  font-size: 130%;
+  @media (max-width: 990px) {
+    font-size: 200%;
   }
 }
 
@@ -38,7 +38,7 @@
   &:focus {
     box-shadow: none;
   }
-  @media (max-width: 800px) {
-    font-size: 4rem
-  }
+  //@media (max-width: 800px) {
+  //  font-size: 3rem
+  //}
 }
