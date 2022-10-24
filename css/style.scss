@@ -17,17 +17,18 @@
 }
 
 #navbarSupportedContent {
-  font-size: 100%;
+  font-size: 120%;
   @media (max-width: 990px){
-    font-size: 130%;
+    font-size: 140%;
   }
 }
 
-
 #Tindog-name {
-  font-size: 130%;
+  font-size: 150%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   @media (max-width: 990px) {
-    font-size: 160%;
+    font-size: 180%;
   }
 }
 
@@ -43,17 +44,28 @@
   //}
 }
 
+.btn, .btn-outline-light, .btn-lg {
+  box-shadow: none;
+  &:active {
+    box-shadow: none;
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
 #introduction h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
-  padding-top: 60px;
   font-weight: 900;
+  color: white;
+  padding-top: 20%;
 }
 
 
 #introduction.container-fluid {
-  padding: 1.5rem 12%;
+  padding: 2rem 12%;
 
 
 
