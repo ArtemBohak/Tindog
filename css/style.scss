@@ -17,18 +17,24 @@
 }
 
 #navbarSupportedContent {
-  font-size: 120%;
+  font-size: 130%;
   @media (max-width: 990px){
-    font-size: 140%;
+    font-size: 150%;
+  }
+  @media (max-width: 480px){
+    font-size: 130%;
   }
 }
 
 #Tindog-name {
-  font-size: 150%;
+  font-size: 160%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   @media (max-width: 990px) {
-    font-size: 180%;
+    font-size: 190%;
+  }
+  @media (max-width: 480px){
+    font-size: 160%;
   }
 }
 
@@ -39,9 +45,9 @@
   &:focus {
     box-shadow: none;
   }
-  //@media (max-width: 800px) {
-  //  font-size: 3rem
-  //}
+  @media (max-width: 480px){
+    font-size: 1.75rem;
+  }
 }
 
 .btn, .btn-outline-light, .btn-lg {
@@ -65,8 +71,6 @@
 
 
 #introduction.container-fluid {
-  padding: 2rem 12%;
-
-
-
+  padding: 2rem 5%;
 }
+

@@ -9,18 +9,24 @@
   background-color: #ff4c68; }
 
 #navbarSupportedContent {
-  font-size: 120%; }
+  font-size: 130%; }
   @media (max-width: 990px) {
     #navbarSupportedContent {
-      font-size: 140%; } }
+      font-size: 150%; } }
+  @media (max-width: 480px) {
+    #navbarSupportedContent {
+      font-size: 130%; } }
 
 #Tindog-name {
-  font-size: 150%;
+  font-size: 160%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
   @media (max-width: 990px) {
     #Tindog-name {
-      font-size: 180%; } }
+      font-size: 190%; } }
+  @media (max-width: 480px) {
+    #Tindog-name {
+      font-size: 160%; } }
 
 .navbar-toggler {
   font-size: 2rem;
@@ -28,6 +34,9 @@
   box-shadow: none; }
   .navbar-toggler:focus {
     box-shadow: none; }
+  @media (max-width: 480px) {
+    .navbar-toggler {
+      font-size: 1.75rem; } }
 
 .btn, .btn-outline-light, .btn-lg {
   box-shadow: none; }
@@ -45,6 +54,6 @@
   padding-top: 20%; }
 
 #introduction.container-fluid {
-  padding: 2rem 12%; }
+  padding: 2rem 5%; }
 
 /*# sourceMappingURL=style.css.map */
