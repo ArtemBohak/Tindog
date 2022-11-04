@@ -40,36 +40,37 @@ p {
 }
 
 #navbarSupportedContent {
-  font-size: 120%;
+  font-size: 130%;
   @media (max-width: 990px){
-    font-size: 140%;
+    font-size: 120%;
   }
   @media (max-width: 480px){
-    font-size: 120%;
+    font-size: 110%;
   }
 }
 
 #Tindog-name {
-  font-size: 170%;
+  font-size: 160%;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
   @media (max-width: 990px) {
-    font-size: 200%;
+    font-size: 150%;
   }
   @media (max-width: 480px){  
-    font-size: 170%;
+    font-size: 140%;
   }
 }
 
 .navbar-toggler {
-  font-size: 2rem;
+  font-size: 150%;
   border: none;
   box-shadow: none;
   &:focus {
     box-shadow: none;
   }
+
   @media (max-width: 480px){
-    font-size: 1.75rem;
+    font-size: 120%;
   }
 }
 
