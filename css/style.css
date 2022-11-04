@@ -327,6 +327,9 @@ p {
 #pricing {
   text-align: center;
 }
+#pricing > p {
+  padding: 0 5%;
+}
 @media (max-width: 768px) {
   #pricing > p {
     font-size: calc(18px + 10.2 * ((100vw - 320px) / 1440));
@@ -336,6 +339,9 @@ p {
   #pricing > p {
     font-size: calc(18px + 6 * (100vw / 1440));
   }
+}
+#pricing > h2 {
+  padding: 0 5%;
 }
 @media (max-width: 768px) {
   #pricing > h2 {
