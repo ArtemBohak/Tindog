@@ -96,7 +96,7 @@ p {
   font-weight: 900;
   color: white;
   margin-top: 15%;
-  @include adaptive-font(72, 40);
+  @include adaptive-font(72, 36);
   // @media (max-width: 990px){
   //   font-size: 3.5rem;
   // }
@@ -157,7 +157,7 @@ p {
   &:hover{
     color: #ff4c68;
   };
-  @include adaptive-font(74, 64);
+  @include adaptive-font(74, 62);
 }
 
 .features-item > h3 {
@@ -167,8 +167,8 @@ p {
 
 
 #features {
-  margin: 90px 0 90px 0;
-  padding: 0 2%
+  margin: 0;
+  padding: 6% 2%;
 }
 
 #features .row {
@@ -186,7 +186,7 @@ p {
 /* TESTIMONIALS*/
 
 #testimonials {
-  padding: 60px 10% 0 10%;
+  padding: 6% 10%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -259,11 +259,11 @@ p {
 
 /*PRESS*/
 
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  padding: 60px 5% 60px 5%;
-}
+// #press {
+//   background-color: #ef8172;
+//   text-align: center;
+//   padding: 60px 5% 60px 5%;
+// }
 
 
 /*PRICING*/
@@ -282,7 +282,7 @@ p {
 }
 
 .row.pricing-row{
-  padding: 30px 5% 30px 5%;
+  padding: 7% 5%;
   align-items: stretch;
   max-width: 100%;
   margin: 0;
@@ -341,6 +341,63 @@ p {
 
     @media (max-width: 480px) {
       padding: 2% 10%;
+    }
+  }
+}
+
+
+/*CTA*/
+
+#cta {
+  text-align: center;
+  padding: 7% 10%;
+  background-color: #ff4c68;
+
+  & h3 {
+    font-weight: 900;
+    color: white;
+    @include adaptive-font(40, 22);
+    margin-bottom: 60px;
+    @media (max-width: 990px) {
+      margin-bottom: 45px;
+    }
+
+    @media (max-width: 480px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  & .buttons {
+    & .btn, .btn-dark, .btn-lg, .btn-outline-light {
+      @include adaptive-font(22, 12);
+    }
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+  }
+}
+
+
+
+/*FOOTER*/
+
+#footer {
+  padding: 2% 5% 1%;
+
+  & .container-fluid {
+    text-align: center;
+    & p {
+      @include adaptive-font(22, 16);
+    }
+
+    & a, span {
+      @include adaptive-font(30, 20);
+      color: #8f8f8f;
+      margin: 0 0.2%;
+      &:hover {
+        color: black;
+      }
+
     }
   }
 }
