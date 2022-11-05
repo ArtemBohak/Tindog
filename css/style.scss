@@ -62,7 +62,7 @@ p {
 }
 
 .navbar-toggler {
-  font-size: 150%;
+  font-size: 170%;
   border: none;
   box-shadow: none;
   &:focus {
@@ -70,7 +70,7 @@ p {
   }
 
   @media (max-width: 480px){
-    font-size: 120%;
+    font-size: 140%;
   }
 }
 
@@ -108,19 +108,19 @@ p {
 #introduction.container-fluid {
   padding: 5rem 8% 3rem 8%;
   overflow: hidden;
-  height: 850px;
+  height: 760px;
   margin: 0 0 35px 0;
   @media (max-width: 990px){
     padding: 3rem 5% 0 5%;
-    height: 870px;
+    height: 830px;
   }
   @media (max-width: 480px){
     padding: 3rem 5% 0 5%;
-    height: 670px;
+    height: 650px;
   }
   @media (max-width: 350px){
     padding: 3rem 5% 0 5%;
-    height: 670px
+    height: 620px
   }
 }
 
@@ -167,7 +167,7 @@ p {
 
 
 #features {
-  margin: 120px 0 60px 0;
+  margin: 90px 0 90px 0;
   padding: 0 2%
 }
 
