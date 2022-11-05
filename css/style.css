@@ -1,5 +1,4 @@
-#pricing,
-#cta {
+#pricing {
   margin: 60px 0px;
 }
 
@@ -485,10 +484,13 @@ p {
 
 /*FOOTER*/
 #footer {
-  padding: 2% 5%;
+  padding: 5% 5% 2%;
 }
 #footer .container-fluid {
   text-align: center;
+}
+#footer .container-fluid p {
+  margin-bottom: 0;
 }
 @media (max-width: 768px) {
   #footer .container-fluid p {

@@ -17,8 +17,7 @@
 
 
 
-#pricing,
-#cta
+#pricing
 {
   @include initial-margin(60px, 0px)
 }
@@ -382,12 +381,13 @@ p {
 /*FOOTER*/
 
 #footer {
-  padding: 2% 5%;
+  padding: 5% 5% 2%;
 
   & .container-fluid {
     text-align: center;
     & p {
       @include adaptive-font(22, 16);
+      margin-bottom: 0;
     }
 
     & a, span {
