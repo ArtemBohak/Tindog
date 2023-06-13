@@ -18,7 +18,7 @@ Tindog is a responsive website for a fictional dog dating app. It is built using
 
 ## Demo
 
-You can access a live demo of Tindog here: https://artembohak.github.io/Tindog.
+You can access a live demo of Tindog [here](https://artembohak.github.io/Tindog/)
 
 ## Getting Started
 To get a local copy up and running, follow these steps:
